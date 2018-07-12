@@ -1,0 +1,9 @@
+{
+    "name": "Android Studio",
+    "icon": "images/android_studio.png",
+    "version": "173.4819257",
+    "command": "Start-Process -FilePath * -Wait",
+    "url": "https://dl.google.com/dl/android/studio/install/3.1.3.0/android-studio-ide-173.4819257-windows.exe",
+    "output": "C:/deployment/android-studio-ide-173.4819257-windows.exe",
+    "permission": "0"
+}

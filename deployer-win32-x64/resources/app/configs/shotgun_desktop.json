@@ -1,0 +1,10 @@
+{
+    "name": "Shotgun Desktop",
+    "icon": "images/shotgun.png",
+    "version": "1.0.0",
+    "website": "https://support.shotgunsoftware.com/hc/en-us",
+    "command": "Start-Process -FilePath * /S -Wait",
+    "url": "https://sg-shotgunsoftware.s3.amazonaws.com/deploy/desktop/ShotgunInstaller_Current.exe",
+    "output": "C:/deployment/ShotgunInstaller_Current.exe",
+    "permission": "0"
+}

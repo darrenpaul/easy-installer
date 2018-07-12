@@ -1,0 +1,10 @@
+{
+    "name": "Adobe CC",
+    "icon": "images/adobe_cc.png",
+    "version": "1.0.0",
+    "website": "https://www.adobe.com/africa/creativecloud.html",
+    "command": "Start-Process -FilePath * /S -Wait",
+    "url": "https://ccmdls.adobe.com/AdobeProducts/KCCC/1/win32/CreativeCloudSet-Up.exe",
+    "output": "C:/deployment/CreativeCloudSet-Up.exe",
+    "permission": "0"
+}

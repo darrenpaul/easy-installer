@@ -1,0 +1,10 @@
+{
+    "name": "Sublime Text 3",
+    "icon": "images/sublime_text.png",
+    "version": "1.0.0",
+    "website": "https://www.sublimetext.com/",
+    "command": "Start-Process -FilePath * /silent -Wait",
+    "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203143%20x64%20Setup.exe",
+    "output": "C:/deployment/Sublime%20Text%20Build%203143%20x64%20Setup.exe",
+    "permission": "0"
+}

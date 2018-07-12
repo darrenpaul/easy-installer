@@ -1,0 +1,10 @@
+{
+    "name": "Chocolatey",
+    "icon": "images/chocolatey.png",
+    "version": "1.0.0",
+    "command": "Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))",
+    "website": "https://chocolatey.org/",
+    "url": "https://chocolatey.org/install.ps1",
+    "output": "C:/deployment/install.ps1",
+    "permission": "1"
+}

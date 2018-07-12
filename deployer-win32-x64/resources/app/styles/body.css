@@ -1,0 +1,43 @@
+body{
+    background-color: #363535;
+}
+.centered{
+    background-color: #363535;
+}
+.permission-all{
+    color: #7FCA9F;
+}
+.permission-admin{
+    color: #E96D63;
+}
+.header-text{
+    color: whitesmoke;
+    text-align: center;
+}
+.text-color{
+    color: whitesmoke;
+}
+.table td {
+   text-align: center;
+}
+nav{
+    -webkit-app-region: drag;
+    background-color: #E96D63;
+}
+.nav-bar{
+    -webkit-app-region: drag;
+    background-color: #E96D63;
+}
+i{
+    color: #FCFEFD;
+}
+button{
+    -webkit-app-region: no-drag;
+}
+a{
+    -webkit-app-region: no-drag;
+}
+.install-btn{
+    -webkit-app-region: no-drag;
+    background-color: #E96D63;
+}
