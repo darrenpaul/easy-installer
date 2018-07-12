@@ -1,0 +1,10 @@
+{
+    "name": "NodeJs",
+    "icon": "images/node_js.png",
+    "version": "8.11.2 LTS",
+    "website": "https://nodejs.org/en/",
+    "command": "Start-Process -FilePath '*' /qb! -Wait",
+    "url": "https://nodejs.org/dist/v8.11.2/node-v8.11.2-x64.msi",
+    "output": "C:/deployment/node-v8.11.2-x64.msi",
+    "permission": "0"
+}

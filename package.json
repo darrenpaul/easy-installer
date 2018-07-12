@@ -1,0 +1,30 @@
+{
+  "name": "easy-installer",
+  "version": "1.0.0",
+  "description": "Used for install windows based apps",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrenpaul/easy-installer.git"
+  },
+  "author": "Darren Paul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darrenpaul/easy-installer/issues"
+  },
+  "homepage": "https://github.com/darrenpaul/easy-installer#readme",
+  "devDependencies": {
+    "electron": "^2.0.4",
+    "electron-packager": "^12.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "node-notifier": "^5.2.1",
+    "node-powershell": "^3.3.1",
+    "opn": "^5.3.0",
+    "request": "^2.87.0"
+  }
+}

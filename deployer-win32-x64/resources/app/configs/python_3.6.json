@@ -1,0 +1,10 @@
+{
+    "name": "Python 3.6",
+    "icon": "images/python2.7.png",
+    "version": "3.6.4",
+    "website": "https://www.python.org/",
+    "command": "Start-Process -FilePath * -Wait",
+    "url": "https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe",
+    "output": "C:/deployment/python-3.6.4-amd64.exe",
+    "permission": "0"
+}

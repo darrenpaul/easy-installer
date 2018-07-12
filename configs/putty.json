@@ -1,0 +1,10 @@
+{
+    "name": "Putty",
+    "icon": "images/putty.png",
+    "version": "0.70",
+    "website": "https://www.putty.org/",
+    "command": "Start-Process -FilePath * /q -Wait",
+    "url": "https://the.earth.li/~sgtatham/putty/0.70/w64/putty-64bit-0.70-installer.msi",
+    "output": "C:/deployment/putty-64bit-0.70-installer.msi",
+    "permission": "0"
+}

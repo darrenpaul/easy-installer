@@ -1,0 +1,10 @@
+{
+    "name": "GitHub Desktop",
+    "icon": "images/github.png",
+    "version": "1.2.2",
+    "website": "https://desktop.github.com/",
+    "command": "Start-Process -FilePath * /passive",
+    "url": "https://desktop.githubusercontent.com/releases/1.2.2-e1bb5d3e/GitHubDesktopSetup.exe",
+    "output": "C:/deployment/GitHubDesktopSetup.exe",
+    "permission": "0"
+}
