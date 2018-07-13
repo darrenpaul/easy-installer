@@ -1,10 +1,10 @@
 {
     "name": "Miniconda 2",
     "icon": "images/anaconda.png",
-    "version": "5.2.0",
+    "version": "4.5.4",
     "website": "https://conda.io/docs/index.html",
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://repo.continuum.io/miniconda/Miniconda2-latest-Windows-x86_64.exe",
     "output": "C:/deployment/Miniconda2-latest-Windows-x86_64.exe",
-    "permission": "0"
+    "permission": "1"
 }

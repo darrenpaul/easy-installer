@@ -6,5 +6,5 @@
     "command": "Start-Process -FilePath '*'",
     "url": "https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi",
     "output": "C:/deployment/python-2.7.15.msi",
-    "permission": "0"
+    "permission": "1"
 }
