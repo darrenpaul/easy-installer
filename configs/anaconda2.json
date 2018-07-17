@@ -6,5 +6,5 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://repo.anaconda.com/archive/Anaconda2-5.2.0-Windows-x86_64.exe",
     "output": "C:/deployment/Anaconda2-5.2.0-Windows-x86_64.exe",
-    "permission": "0"
+    "permission": "1"
 }

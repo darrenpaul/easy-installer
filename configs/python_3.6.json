@@ -6,5 +6,5 @@
     "command": "Start-Process -FilePath * -Wait",
     "url": "https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe",
     "output": "C:/deployment/python-3.6.6-amd64.exe",
-    "permission": "0"
+    "permission": "1"
 }
