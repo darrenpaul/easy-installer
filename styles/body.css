@@ -11,6 +11,7 @@ body{
     color: #E96D63;
 }
 .header-text{
+  padding-left: 25px;
     color: whitesmoke;
     text-align: center;
 }
