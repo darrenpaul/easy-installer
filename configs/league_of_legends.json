@@ -3,7 +3,7 @@
     "icon": "images/league_of_legends.png",
     "version": "1.0.0",
     "website": "https://euw.leagueoflegends.com/en/",
-    "command": "Start-Process -FilePath * --mode win32 unattended -Wait",
+    "command": "Start-Process -FilePath * '--mode unattended --license_agreement 0' -Wait",
     "url": "https://riotgamespatcher-a.akamaihd.net/releases/live/installer/deploy/League%20of%20Legends%20installer%20EUW.exe",
     "output": "C:/deployment/league_of_legends_installer_EUW.exe",
     "permission": "0"
