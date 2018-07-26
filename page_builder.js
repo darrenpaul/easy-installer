@@ -1,5 +1,4 @@
 function BuildAnchor(args){
-
     var anchor = document.createElement("a")
     if("href" in args){
         anchor.href = anchor.href
@@ -65,6 +64,9 @@ function BuildParagraph(args){
     }
     if("innerText" in args){
         paragraph.innerText = args.innerText;
+    }
+    if("id" in args){
+        paragraph.id = args.id;
     }
 
     return paragraph

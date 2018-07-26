@@ -6,6 +6,7 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://repo.anaconda.com/archive/Anaconda3-5.2.0-Windows-x86_64.exe",
     "output": "C:/deployment/Anaconda3-5.2.0-Windows-x86_64.exe",
+    "install": "{home}/Miniconda3/Scripts/conda.exe",
     "permission": "1"
 
 

@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe",
     "output": "C:/deployment/SteamSetup.exe",
+    "install": "C:/Program Files (x86)/Steam/Steam.exe",
     "permission": "0"
 }

@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://eu.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe&id=290573456.1505264452",
     "output": "C:/deployment/Battle.net-Setup.exe",
+    "install": "C:/Program Files (x86)/Battle.net/Battle.net.exe",
     "permission": "0"
 }

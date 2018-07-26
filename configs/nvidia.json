@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * '/n /s /noeula /nofinish' -Wait",
     "url": "http://uk.download.nvidia.com/Windows/397.64/397.64-desktop-win10-64bit-international-whql.exe",
     "output": "C:/deployment/397.64-desktop-win10-64bit-international-whql.exe",
+    "install": "C:/Program Files/NVIDIA Corporation/Display/nvsmartmaxapp.exe",
     "permission": "0"
 }

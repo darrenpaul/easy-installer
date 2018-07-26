@@ -1,15 +1,11 @@
 // Require Dependencies
 const $ = require('jquery');
 const electron = require("electron")
+const homedir = require('os').homedir();
 const powershell = require('node-powershell');
 
 var request = require('request');
 var fs = require('fs');
-
-const notification = {
-    title: "Installing",
-    body: "working"
-}
 
 function RunScript(jsonobject){
     Notifiy("Downloading", jsonobject.name, jsonobject.icon);
@@ -31,39 +27,36 @@ function InstallApp(jsonobject){
         executionPolicy: 'unrestricted',
         noProfile: true
     })
-      var _command = jsonobject.command.replace("*", jsonobject.output)
+    var _command = jsonobject.command.replace("*", jsonobject.output)
+
+    var element = document.getElementById(jsonobject.name);
+    element.innerText = "Installing";
 
     ps.addCommand(_command)
-    Notifiy("Installing", jsonobject.name, jsonobject.icon);
     ps.invoke()
-    Notifiy("Done", jsonobject.name, jsonobject.icon);
+    .then(output => {
+        console.log(output);
+        element.innerText = "Installed";
+    })
+    .catch(err => {
+    console.log(err);
+    ps.dispose();
+    });
+}
+
+function CheckIfInstalled(object){
+    if("install" in object){
+        object.install = object.install.replace("{home}", homedir)
+        console.log(object.install)
+        if (!fs.exists(object.install)) {
+            var element = document.getElementById(object.name);
+            element.innerText = "Installed";
+        }
+    }
 }
 
 function Notifiy(title, message, icon){
-    console.error(icon)
-    const notifier = require('node-notifier');
-    const path = require('path');
-     
-    notifier.notify(
-      {
-        title: title,
-        message: message,
-        icon: path.join(__dirname, icon), // Absolute path (doesn't work on balloons)
-        sound: true, // Only Notification Center or Windows Toasters
-        wait: true // Wait with callback, until user action is taken against notification
-      },
-      function(err, response) {
-        // Response is response from notification
-      }
-    );
-     
-    notifier.on('click', function(notifierObject, options) {
-      // Triggers if `wait: true` and user clicks notification
-    });
-     
-    notifier.on('timeout', function(notifierObject, options) {
-      // Triggers if `wait: true` and notification closes
-    });
+    console.error("Hello!")
 }
 
 function downloadFile(jsonobject){
@@ -72,6 +65,9 @@ function downloadFile(jsonobject){
     // Save variable to know progress
     var received_bytes = 0;
     var total_bytes = 0;
+
+    var element = document.getElementById(jsonobject.name);
+    element.innerText = "Downloading";
 
     var req = request({
         method: 'GET',
@@ -90,7 +86,7 @@ function downloadFile(jsonobject){
     req.on('data', function(chunk) {
         // Update the received bytes
         received_bytes += chunk.length;
-
+        element.innerText = received_bytes + " bytes"
         showProgress(received_bytes, total_bytes);
     });
     return req

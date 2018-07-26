@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-550.exe",
     "output": "C:/deployment/winrar-x64-550.exe",
+    "install": "C:/Program Files/WinRAR/WinRAR.exe",
     "permission": "0"
 }

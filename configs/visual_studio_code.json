@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /Silent -Wait",
     "url": "https://az764295.vo.msecnd.net/stable/f88bbf9137d24d36d968ea6b2911786bfe103002/VSCodeSetup-x64-1.20.1.exe",
     "output": "C:/deployment/VSCodeSetup-x64-1.20.1.exe",
+    "install": "C:/Program Files/Microsoft VS Code/Code.exe",
     "permission": "0"
 }

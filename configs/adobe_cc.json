@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://ccmdls.adobe.com/AdobeProducts/KCCC/1/win32/CreativeCloudSet-Up.exe",
     "output": "C:/deployment/CreativeCloudSet-Up.exe",
+    "install": "C:/Program Files (x86)/Adobe/Adobe Creative Cloud/ACC/Creative Cloud.exe",
     "permission": "0"
 }

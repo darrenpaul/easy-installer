@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe",
     "output": "C:/deployment/TeamViewer_Setup.exe",
+    "install": "C:/Program Files (x86)/TeamViewer/TeamViewer.exe",
     "permission": "0"
 }

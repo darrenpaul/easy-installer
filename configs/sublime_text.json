@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /silent -Wait",
     "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203143%20x64%20Setup.exe",
     "output": "C:/deployment/Sublime%20Text%20Build%203143%20x64%20Setup.exe",
+    "install": "C:/Program Files/Sublime Text 3/sublime_text.exe",
     "permission": "0"
 }

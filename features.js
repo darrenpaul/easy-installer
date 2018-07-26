@@ -13,6 +13,9 @@ function AddApps(jsonobject) {
     var eleAppName = document.createElement("td");
     eleTableTr.appendChild(eleAppName);
 
+    var eleAppStatus = document.createElement("td");
+    eleTableTr.appendChild(eleAppStatus);
+
     var eleAppPermissions = document.createElement("td");
     eleTableTr.appendChild(eleAppPermissions);
 
@@ -32,12 +35,14 @@ function AddApps(jsonobject) {
         _permissionString = "fa fa-circle permission-admin"
     }
 
-    console.log(_permissionString)
     var permissionsIcon = BuildIcon({"className": _permissionString, "style": "font-size:24px"})
     eleAppPermissions.appendChild(permissionsIcon);
 
     var paragraphAppName = BuildParagraph({"innerText": _friendlyname});
     eleAppName.appendChild(paragraphAppName);
+
+    var paragraphAppNameStatus = BuildParagraph({"innerText": "Uninstalled", "id": _friendlyname});
+    eleAppStatus.appendChild(paragraphAppNameStatus);
 
     var paragraphAppVersion = BuildParagraph({"innerText": jsonobject.version})
     eleAppVersion.appendChild(paragraphAppVersion);
@@ -52,7 +57,9 @@ function AddApps(jsonobject) {
     var tablebody = document.getElementById("table-body");
         //Append the element in page (in span).
         tablebody.appendChild(eleTableTr);
-    }
+    
+    CheckIfInstalled(jsonobject)
+}
 
 
 var powershellScripts = path.join(__dirname, "configs");

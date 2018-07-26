@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * '--mode unattended --license_agreement 0' -Wait",
     "url": "https://riotgamespatcher-a.akamaihd.net/releases/live/installer/deploy/League%20of%20Legends%20installer%20EUW.exe",
     "output": "C:/deployment/league_of_legends_installer_EUW.exe",
+    "install": "C:/Riot Games/League of Legends/LeagueClient.exe",
     "permission": "0"
 }

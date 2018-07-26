@@ -6,5 +6,6 @@
     "command": "Start-Process -FilePath * /S -Wait",
     "url": "http://videolan.mirror.liquidtelecom.com/vlc/3.0.3/win32/vlc-3.0.3-win32.exe",
     "output": "C:/deployment/vlc-3.0.3-win32.exe",
+    "install": "C:/Program Files (x86)/VideoLAN/VLC/vlc.exe",
     "permission": "0"
 }

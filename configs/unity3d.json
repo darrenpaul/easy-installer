@@ -1,0 +1,11 @@
+{
+    "name": "Unity 3D",
+    "icon": "images/unity3d.png",
+    "version": "2018.2.0f2",
+    "website": "https://unity3d.com/",
+    "command": "Start-Process -FilePath * -Wait",
+    "url": "https://netstorage.unity3d.com/unity/787658998520/UnityDownloadAssistant-2018.2.0f2.exe",
+    "output": "C:/deployment/UnityDownloadAssistant-2018.2.0f2.exe",
+    "install": "C:/Program Files/Unity/Editor/Unity.exe",
+    "permission": "0"
+}
