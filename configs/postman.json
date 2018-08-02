@@ -1,0 +1,11 @@
+{
+    "name": "Postman",
+    "icon": "images/postman.png",
+    "version": "6.2.3",
+    "website": "https://www.getpostman.com/",
+    "command": "Start-Process -FilePath * -Wait",
+    "url": "https://dl.pstmn.io/download/latest/win64",
+    "output": "C:/deployment/postman623.exe",
+    "install": "{home}/AppData/Local/Postman/app-6.2.3/Postman.exe",
+    "permission": "0"
+}

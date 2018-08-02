@@ -47,8 +47,7 @@ function InstallApp(jsonobject){
 function CheckIfInstalled(object){
     if("install" in object){
         object.install = object.install.replace("{home}", homedir)
-        console.log(object.install)
-        if (!fs.exists(object.install)) {
+        if (fs.existsSync(object.install)) {
             var element = document.getElementById(object.name);
             element.innerText = "Installed";
         }
