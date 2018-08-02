@@ -1,0 +1,11 @@
+{
+    "name": "SQLite Browser",
+    "icon": "images/sqlitebrowser.png",
+    "version": "3.10.1",
+    "website": "https://sqlitebrowser.org/",
+    "command": "Start-Process -FilePath * /S -Wait",
+    "url": "https://github-production-release-asset-2e65be.s3.amazonaws.com/19416551/b73e003e-9e1c-11e7-9a47-4717867fc398?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180802T095335Z&X-Amz-Expires=300&X-Amz-Signature=8b65f3cbf29993aba44dcb3dacbcefa4ef4620972270dcec1b8963228dbdeee4&X-Amz-SignedHeaders=host&actor_id=27204436&response-content-disposition=attachment%3B%20filename%3DDB.Browser.for.SQLite-3.10.1-win64.exe&response-content-type=application%2Foctet-stream",
+    "output": "C:/deployment/sqlitebrowser3101.exe",
+    "install": "{home}/AppData/Local/Programs/Python/Python36/python.exe",
+    "permission": "0"
+}
