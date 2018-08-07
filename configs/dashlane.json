@@ -1,0 +1,11 @@
+{
+    "name": "Dashlane",
+    "icon": "images/dashlane.png",
+    "version": "6.0.3",
+    "website": "https://www.dashlane.com/",
+    "command": "Start-Process -FilePath * /Silent -Wait",
+    "url": "https://d3qm0vl2sdkrc.cloudfront.net/releases/6.0.3/6.0.3.11395/hotfix-6.0.3/DashlaneInst.exe",
+    "output": "C:/deployment/dashlane603.exe",
+    "install": "{home}/AppData/Roaming/Dashlane/Dashlane.exe",
+    "permission": "0"
+}
