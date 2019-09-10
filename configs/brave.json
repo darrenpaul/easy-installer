@@ -1,0 +1,11 @@
+{
+  "name": "Brave",
+  "icon": "images/brave.png",
+  "version": "1.0.0",
+  "command": "Start-Process -FilePath * -Wait",
+  "website": "https://brave.com/",
+  "url": "https://brave-browser-downloads.s3.brave.com/latest/BraveBrowserSetup.exe",
+  "output": "C:/deployment/BraveBrowserSetup.exe",
+  "install": "C:/Program Files (x86)/BraveSoftware/Brave-Browser/Application/Brave.exe",
+  "permission": "0"
+}

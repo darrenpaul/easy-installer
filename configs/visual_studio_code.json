@@ -1,11 +1,11 @@
 {
-    "name": "Visual Studio Code",
-    "icon": "images/visual_studio_code.png",
-    "version": "1.20.1",
-    "website": "https://code.visualstudio.com/",
-    "command": "Start-Process -FilePath * /Silent -Wait",
-    "url": "https://az764295.vo.msecnd.net/stable/f88bbf9137d24d36d968ea6b2911786bfe103002/VSCodeSetup-x64-1.20.1.exe",
-    "output": "C:/deployment/VSCodeSetup-x64-1.20.1.exe",
-    "install": "C:/Program Files/Microsoft VS Code/Code.exe",
-    "permission": "0"
+  "name": "Visual Studio Code",
+  "icon": "images/visual_studio_code.png",
+  "version": "1.38.0",
+  "website": "https://code.visualstudio.com/",
+  "command": "Start-Process -FilePath * /Silent -Wait",
+  "url": "https://az764295.vo.msecnd.net/stable/3db7e09f3b61f915d03bbfa58e258d6eee843f35/VSCodeUserSetup-x64-1.38.0.exe",
+  "output": "C:/deployment/VSCodeUserSetup-x64-1.38.0.exe",
+  "install": "C:/Users/Darren/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+  "permission": "0"
 }

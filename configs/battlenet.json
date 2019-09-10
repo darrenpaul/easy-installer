@@ -1,11 +1,11 @@
 {
-    "name": "Blizzard Battle.net",
-    "icon": "images/battlenet.png",
-    "version": "1.0.0",
-    "website": "https://www.blizzard.com/en-us/apps/battle.net/desktop",
-    "command": "Start-Process -FilePath * /S -Wait",
-    "url": "https://eu.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe&id=290573456.1505264452",
-    "output": "C:/deployment/Battle.net-Setup.exe",
-    "install": "C:/Program Files (x86)/Battle.net/Battle.net.exe",
-    "permission": "0"
+  "name": "Blizzard Battle.net",
+  "icon": "images/battlenet.png",
+  "version": "1.0.0",
+  "website": "https://www.blizzard.com/en-us/apps/battle.net/desktop",
+  "command": "Start-Process -FilePath * /S -Wait",
+  "url": "https://eu.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe",
+  "output": "C:/deployment/Battle.net-Setup.exe",
+  "install": "C:/Program Files (x86)/Battle.net/Battle.net.exe",
+  "permission": "0"
 }

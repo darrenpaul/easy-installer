@@ -1,11 +1,11 @@
 {
-    "name": "Blender",
-    "icon": "images/blender.png",
-    "version": "2.79b",
-    "website": "https://www.blender.org/",
-    "command": "Start-Process -FilePath '*' /qb! -Wait",
-    "url": "https://download.blender.org/release/Blender2.79/blender-2.79b-windows64.msi",
-    "output": "C:/deployment/blender-2.79b-windows64.msi",
-    "install": "C:/Program Files/Blender Foundation/Blender/blender.exe",
-    "permission": "0"
+  "name": "Blender",
+  "icon": "images/blender.png",
+  "version": "2.80",
+  "website": "https://www.blender.org/",
+  "command": "Start-Process -FilePath '*' /qb! -Wait",
+  "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.80/blender-2.80-windows64.msi",
+  "output": "C:/deployment/blender-2.79b-windows64.msi",
+  "install": "C:/Program Files/Blender Foundation/Blender/blender.exe",
+  "permission": "0"
 }

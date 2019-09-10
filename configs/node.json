@@ -1,0 +1,11 @@
+{
+  "name": "NodeJs",
+  "icon": "images/node_js.png",
+  "version": "10.16.3 LTS",
+  "website": "https://nodejs.org/en/",
+  "command": "Start-Process -FilePath '*' /qb! -Wait",
+  "url": "https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi",
+  "output": "C:/deployment/node-v10.16.3-x64.msi",
+  "install": "C:/Program Files/nodejs/node.exe",
+  "permission": "0"
+}
