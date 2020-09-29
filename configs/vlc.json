@@ -1,11 +1,11 @@
 {
-    "name": "VLC",
-    "icon": "images/vlc.png",
-    "version": "3.0.3",
-    "website": "https://www.videolan.org/vlc/download-windows.html",
-    "command": "Start-Process -FilePath * /S -Wait",
-    "url": "http://videolan.mirror.liquidtelecom.com/vlc/3.0.3/win32/vlc-3.0.3-win32.exe",
-    "output": "C:/deployment/vlc-3.0.3-win32.exe",
-    "install": "C:/Program Files (x86)/VideoLAN/VLC/vlc.exe",
-    "permission": "0"
+  "name": "VLC",
+  "icon": "images/vlc.png",
+  "version": "3.0.11",
+  "website": "https://www.videolan.org/vlc/download-windows.html",
+  "command": "Start-Process -FilePath * /S -Wait",
+  "url": "https://videolan.mirror.liquidtelecom.com/vlc/3.0.11/win64/vlc-3.0.11-win64.exe",
+  "output": "C:/deployment/vlc-3.0.11-win64.exe",
+  "install": "C:/Program Files (x86)/VideoLAN/VLC/vlc.exe",
+  "permission": "0"
 }
